@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="360.38 45 679.23 240">
+
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5C3"/>
+      <stop offset="25%" stop-color="#F4D56A"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="75%" stop-color="#B8860B"/>
+      <stop offset="100%" stop-color="#7A5A00"/>
+    </linearGradient>
+  </defs>
+
+  <text x="700" y="170" text-anchor="middle" font-family="'Wharf Hightide'" font-size="140" fill="url(#gold)" letter-spacing="2">
+    BRZRKR'S
+  </text>
+
+  <text x="700" y="270" text-anchor="middle" font-family="'Wharf Hightide'" font-size="70" fill="url(#gold)" letter-spacing="12">
+    COOKBOOK
+  </text>
+
+</svg>

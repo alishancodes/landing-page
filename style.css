@@ -1,0 +1,136 @@
+body {
+    /* Remove the browser's default margin and. */
+    margin: 0;
+    /* make the page at least as tall as the viewport (visible screen) */
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+
+    padding: 5px 150px;
+}
+
+.logo {
+    display:flex;
+    gap: 10px;
+}
+
+.dragon {
+    width: 60px;
+    height: auto;
+}
+
+.brzrkr-cookbook {
+    width: 125px;
+    height: auto;
+}
+
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.hero-section {
+    border-top: 3px double rgba(255, 255, 255, 0.3);
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    column-gap: 40px;
+    padding: 100px 150px;
+
+}
+
+.hero-text {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+    gap: 10px;
+
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+
+    /* flex:1; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7Eb;
+
+    /* flex:1; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hero-btn {
+    flex-grow: 1;
+
+
+
+}
+
+.hero-btn button {
+    width: 120px;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: inherit;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.hero-img {
+    padding-left: 50px;
+
+}
+
+.hero-section img {
+    width: 350px;
+    aspect-ratio: 3 / 2;
+    /* object-fit: cover; */
+    border-radius: 10px;
+}
