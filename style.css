@@ -42,7 +42,7 @@ body {
     color: #E5E7Eb;
 }
 
-ul {
+.header-links ul {
     display: flex;
     gap: 50px;
 
@@ -50,7 +50,7 @@ ul {
     padding-left: 0px;
 }
 
-ul a {
+.header-links ul a {
     text-decoration: none;
     color: white;
 }
@@ -114,6 +114,16 @@ ul a {
     align-items: center;
 
 
+}
+
+/* transition effect */
+.hero-btn button {
+    transition:
+        transform 0.2s ease,
+}
+
+.hero-btn button:hover {
+    transform: scale(1.1);
 }
 
 .hero-img {
@@ -204,66 +214,72 @@ ul a {
 
     padding: 100px 220px;
 
-    font-size:30px;
-    background-color:#dad37e;
-    color:#1F2937;
-    
+    font-size: 30px;
+    background-color: #ecd0cb;
+    color: #1F2937;
+
 }
 
 .testimonial-quote,
 .testimonial .name {
-    display:flex;
-    flex:1;
-    font-weight:300;
+    display: flex;
+    flex: 1;
+    font-weight: 300;
 
 }
 
 .testimonial-quote {
-    font-family: "italic ", serif;
+    font-family: "Merriweather", serif;
+    font-style: italic;
     line-height: 1.4;
+
 }
 
 .testimonial .name {
-    margin-left:auto;
-    font-family:"fantasy" , serif;
-    font-weight:900;
-    font-size:22px;
+    margin-left: auto;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 22px;
+    padding-top:10px;
 
 }
 
 .sign-in_container {
-    display:flex;
-    padding:150px 150px;
+    display: flex;
+    padding: 150px 150px;
 
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background-color: #F7EFD1;
 }
 
 .sign-in {
-    display:flex;
-    background-color:#3882f6;
-    padding:30px 50px;
-    border-radius:10px;
+    display: flex;
+    background-color: #6E3F47;
+    padding: 30px 50px;
+    border-radius: 10px;
     gap: 30px;
+    border:4px solid #C18B3B;
 }
 
-.sign-in_text{
-    display:flex;
-    flex-direction:column;
-    gap:10px;
-    color:white;
+.sign-in_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
 
 }
+
 .sign-in_text .text_main {
-    font-size:30px;
-    font-weight:900;
+    font-size: 30px;
+    font-weight: 900;
+    color:#C18B3B;
 }
 
 .sign-in_text .text_secondary {
-    font-size:18px;
-    font-weight:400;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .sign-in_btn {
@@ -275,9 +291,10 @@ ul a {
 .sign-in_btn button {
     width: 150px;
     height: 50px;
-    border: 2px solid white;
+    border: none;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
     border-radius: 10px;
-    background-color: #3882f6;
+    background-color: #C18B3B;
     color: #F9FAF8;
     padding: 12px;
     font-size: 22px;
@@ -287,4 +304,57 @@ ul a {
     justify-content: center;
     align-items: center;
 
+}
+
+/* transition effect */
+.sign-in_btn button {
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.sign-in_btn button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+
+.footer {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background-color: #172033;
+    padding:5px;
+}
+
+.footer .copyright-text {
+    font-size:15px;
+    padding: 10px;
+    color: #C18B3B;
+    font-weight:bold;
+    
+    /* width: 100% means:
+    Make this element take up 100% of the 
+    width of its parent container. */
+        
+    width: 100%;
+    text-align: center;
+}
+
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 0px;
+    margin:0px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer ul a {
+    text-decoration: none;
+    color: #AFA58A;
+    font-size:10px;
 }
