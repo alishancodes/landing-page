@@ -2,7 +2,7 @@ body {
     /* Remove the browser's default margin and. */
     margin: 0;
     /* make the page at least as tall as the viewport (visible screen) */
-    min-height: 100vh;
+    /* min-height: 100vh; */
 
     display: flex;
     flex-direction: column;
@@ -12,13 +12,13 @@ body {
 
 .header {
     display: flex;
-    background-color: #1F2937;
+    background-color: #172033;
 
     padding: 5px 150px;
 }
 
 .logo {
-    display:flex;
+    display: flex;
     gap: 10px;
 }
 
@@ -59,7 +59,7 @@ ul a {
 .hero-section {
     border-top: 3px double rgba(255, 255, 255, 0.3);
     display: flex;
-    background-color: #1F2937;
+    background-color: #172033;
     justify-content: space-between;
     column-gap: 40px;
     padding: 100px 150px;
@@ -133,4 +133,107 @@ ul a {
     aspect-ratio: 3 / 2;
     /* object-fit: cover; */
     border-radius: 10px;
+}
+
+.feature-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E8D5A9;
+
+}
+
+.feature-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+}
+
+.feature-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 83px;
+}
+
+.feature-boxes .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 150px;
+    height: auto;
+
+    gap: 20px;
+}
+
+.box img {
+    width: 150px;
+    height: auto;
+    box-sizing: border-box;
+    border: 4px solid #C18B3B;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+/* transition */
+.box img {
+    transition: transform 0.2s ease;
+}
+
+.box img:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 15px rgba(193, 139, 59, 0.6);
+
+}
+
+.feature-text {
+    text-align: center;
+    font-size: 22px;
+    color: #374151;
+    font-weight: 700;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* gap: 10px; */
+
+    padding: 100px 220px;
+
+    font-size:30px;
+    background-color:#dad37e;
+    color:#1F2937;
+    
+}
+
+.testimonial-quote,
+.testimonial .name {
+    display:flex;
+    flex:1;
+    font-weight:300;
+
+}
+
+.testimonial-quote {
+    font-family: "italic ", serif;
+    line-height: 1.4;
+}
+
+.testimonial .name {
+    margin-left:auto;
+    font-family:"fantasy" , serif;
+    font-weight:900;
+    font-size:22px;
+
 }
