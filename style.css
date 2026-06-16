@@ -97,13 +97,6 @@ ul a {
     padding-bottom: 10px;
 }
 
-.hero-btn {
-    flex-grow: 1;
-
-
-
-}
-
 .hero-btn button {
     width: 120px;
     height: 40px;
@@ -235,5 +228,63 @@ ul a {
     font-family:"fantasy" , serif;
     font-weight:900;
     font-size:22px;
+
+}
+
+.sign-in_container {
+    display:flex;
+    padding:150px 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sign-in {
+    display:flex;
+    background-color:#3882f6;
+    padding:30px 50px;
+    border-radius:10px;
+    gap: 30px;
+}
+
+.sign-in_text{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    color:white;
+
+}
+.sign-in_text .text_main {
+    font-size:30px;
+    font-weight:900;
+}
+
+.sign-in_text .text_secondary {
+    font-size:18px;
+    font-weight:400;
+}
+
+.sign-in_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in_btn button {
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 12px;
+    font-size: 22px;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
