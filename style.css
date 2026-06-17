@@ -317,6 +317,16 @@ body {
     transform: scale(1.1);
     box-shadow: 0 4px 10px rgba(0,0,0,0.25);
 }
+/* 
+----- for future or something,idk--------
+button:hover {
+    cursor: url("./images/sword.png") 16 16, pointer; 
+} */
+
+* {
+    cursor: url("./images/sword.png") 2 2, auto;
+}
+
 
 
 .footer {

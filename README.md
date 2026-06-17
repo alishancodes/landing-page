@@ -19,3 +19,4 @@ A Viking-inspired landing page built as part of The Odin Project Foundations cou
 •Fire icon — Vectors Market (Flaticon)
 •Snow icon — POD Gladiator (Flaticon)
 •Brain icon — Freepik (Flaticon)
+•Sword icons created by Alfredo Hernandez (Flaticon)
